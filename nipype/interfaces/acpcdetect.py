@@ -40,6 +40,6 @@ class ACPCDetect(CommandLine):
 
 if __name__ == '__main__':
 
-    acd = ACPCDetect(input_file='an_existing_file')
+    acd = ACPCDetect(infile='an_existing_file')
     print acd.cmdline
     acd.run()
